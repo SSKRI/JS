@@ -1,0 +1,23 @@
+h1 {
+  color: fuchsia;
+}
+
+em {
+  color: royalblue;
+}
+
+li {
+  font-weight: bold;
+}
+
+li em {
+  font-size: 20px;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: red;
+}

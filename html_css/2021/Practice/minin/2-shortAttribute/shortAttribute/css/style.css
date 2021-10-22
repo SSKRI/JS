@@ -1,0 +1,10 @@
+.element {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+
+  /* font: ??? */
+}
+.element2 {
+  font: normal 18px "Roboto", sans-serif;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>forms</title>
+  </head>
+  <body>
+    <form action="#" method="get" enctype="multipart/form-data">
+      <div>
+        <p>Имя</p>
+        <input tabindex="1" type="text" name="username" placeholder="имя" />
+      </div>
+
+      <div>
+        <p>Пароль</p>
+        <input tabindex="2" type="password" name="userpass" />
+      </div>
+
+      <div>
+        <p>Телефон</p>
+        <input tabindex="3" type="tel" name="userphone" />
+      </div>
+
+      <div>
+        <p>Пол</p>
+        <div>
+          <input
+            checked
+            tabindex="4"
+            type="radio"
+            name="gender"
+            value="male"
+          />Мужской
+        </div>
+        <input tabindex="4" type="radio" name="gender" value="female" />Женский
+      </div>
+
+      <div>
+        <p>Имущество</p>
+        <div>
+          <input tabindex="5" type="checkbox" name="bike" value="yes" />Велик
+        </div>
+        <div>
+          <input tabindex="6" type="checkbox" name="car" value="yes" />Машина
+        </div>
+        <div>
+          <input
+            disabled
+            tabindex="7"
+            type="checkbox"
+            name="apartment"
+            value="yes"
+          />Квартира
+        </div>
+      </div>
+
+      <div>
+        <p>Дополнительная информация</p>
+        <textarea tabindex="8" name="info" placeholder="Доп.инфо"></textarea>
+      </div>
+
+      <div>
+        <p>Прикрепить фото</p>
+        <input tabindex="9" type="file" name="foto" />
+      </div>
+
+      <div>
+        <p>Любимый цвет</p>
+        <select multiple tabindex="10" name="color">
+          <option tabindex="11" value="blue">Синий</option>
+          <option tabindex="12" selected value="red">Красный</option>
+          <option tabindex="13" value="yellow">Желтый</option>
+        </select>
+      </div>
+
+      <div>
+        <p>Действия</p>
+        <button tabindex="14" type="submit">Отправить</button>
+        <button tabindex="15" type="resey">Очистить</button>
+      </div>
+    </form>
+    <div style="margin-bottom: 100px"></div>
+  </body>
+</html>

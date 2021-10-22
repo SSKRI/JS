@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.list-group {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+.list-group-item {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 10px;
+}
+
+.list-group li:nth-child(2) {
+  border-top: none;
+  border-bottom: none;
+}
+
+/* .w {
+  background: rebeccapurple;
+  bottom: 1px solid red;
+} */
