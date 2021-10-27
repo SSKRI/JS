@@ -28,3 +28,11 @@
 //4 урок - числа
 console.log(Number.MAX_SAFE_INTEGER);
 console.log(Math.pow(2, 53) - 1);
+
+function getMan() {}
+console.log(`
+        <div>ffghkkl</div>    k;lk;lkgfffdds 
+
+        yyd     l;lllj
+ AAAAAAAAAAAAAA       
+`);
