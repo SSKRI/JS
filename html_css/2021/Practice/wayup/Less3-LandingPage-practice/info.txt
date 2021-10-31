@@ -1,0 +1,8 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+
+font-family: 'Montserrat', sans-serif;      Black 900
+font-family: 'Open Sans', sans-serif;       Regular 400
+font-family: 'Ubuntu', sans-serif;          Regular 400   Bold 700

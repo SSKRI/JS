@@ -26,13 +26,23 @@
 // const cars2 = new Array("мазда", "мерседес", "опель");
 
 //4 урок - числа
-console.log(Number.MAX_SAFE_INTEGER);
-console.log(Math.pow(2, 53) - 1);
+// console.log(Number.MAX_SAFE_INTEGER);
+// console.log(Math.pow(2, 53) - 1);
 
-function getMan() {}
-console.log(`
-        <div>ffghkkl</div>    k;lk;lkgfffdds 
+// function getMan() {}
+// console.log(`
+//         <div>ffghkkl</div>    k;lk;lkgfffdds
 
-        yyd     l;lllj
- AAAAAAAAAAAAAA       
-`);
+//         yyd     l;lllj
+//  AAAAAAAAAAAAAA
+// `);
+
+// function test(params) {
+//   console.log("привет", params);
+// }
+// console.log(test("sweta"));
+
+const arrow = () => {
+  console.log("ПРиветики");
+};
+arrow();
