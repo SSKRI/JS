@@ -156,7 +156,8 @@ h6 {
 
 .wrapper {
   display: flex;
-  /* justify-content: space-between; */
+  align-items: center;
+  justify-content: space-between;
 }
 
 .title {
@@ -200,12 +201,12 @@ h6 {
 .offer {
   width: 601px;
   margin-right: 30px;
-  margin-top: 147px;
+  /* margin-top: 147px; */
 }
 
-.desktop {
+/* .desktop {
   margin-top: 10px;
-}
+} */
 
 .section-title {
   font-size: 30px;
